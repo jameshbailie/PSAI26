@@ -25,7 +25,7 @@ jobs:
         run: quarto render --no-execute
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v5
         with:
           path: _site
 
