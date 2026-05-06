@@ -27,20 +27,7 @@ A one-day workshop, “Principled Statistics in the Age of AI,” as part of Pro
 
 ## Speakers
 
-### Xiao-Li Meng
-Harvard University — Keynote
-
-### Cory McCartan
-Penn State — https://corymccartan.com/
-
-### Joshua Bon
-University of Adelaide — https://bonstats.github.io/
-
-### Fredrik Johansson
-Chalmers University — https://www.fredjo.com/
-
-### Ashkan Panahi
-Chalmers University — https://www.chalmers.se/en/persons/ashkanp/
+See the full talk listings and bios on the [Talks](talks.qmd) page.
 
 
 ## Organisers

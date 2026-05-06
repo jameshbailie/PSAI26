@@ -1,0 +1,83 @@
+---
+title: "Talks — Principled Statistics in the Age of AI"
+---
+
+# Talks
+
+This page contains the talk schedule, abstracts, and speaker bios.
+
+## Keynote — Xiao-Li Meng
+
+![](images/xiao-li-meng.jpg){width="200px" align="left"}
+
+**Title:** (Keynote title TBD)
+
+**Abstract:**
+
+> (Place keynote abstract here.)
+
+**Bio:**
+
+Short bio for Xiao-Li Meng. Include affiliations and notable work.
+
+---
+
+## Invited Talks
+
+### Talk: (Title TBD)
+**Speaker:** Cory McCartan
+
+**Abstract:**
+
+> (Abstract placeholder)
+
+**Bio:**
+
+Short bio for Cory McCartan.
+
+---
+
+### Talk: (Title TBD)
+**Speaker:** Joshua Bon
+
+**Abstract:**
+
+> (Abstract placeholder)
+
+**Bio:**
+
+Short bio for Joshua Bon.
+
+---
+
+### Talk: (Title TBD)
+**Speaker:** Fredrik Johansson
+
+**Abstract:**
+
+> (Abstract placeholder)
+
+**Bio:**
+
+Short bio for Fredrik Johansson.
+
+---
+
+### Talk: (Title TBD)
+**Speaker:** Ashkan Panahi
+
+**Abstract:**
+
+> (Abstract placeholder)
+
+**Bio:**
+
+Short bio for Ashkan Panahi.
+
+---
+
+## Notes for editors
+
+- Add Xiao-Li's photo as `images/xiao-li-meng.jpg` to display the keynote image.
+- Fill in talk titles, abstracts, and speaker bios in the placeholders above.
+- Keep this page updated with final abstracts as they arrive.

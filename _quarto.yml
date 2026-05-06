@@ -7,6 +7,8 @@ website:
     right:
       - text: "Program"
         href: index.qmd
+      - text: "Talks"
+        href: talks.qmd
 
 format:
   html:
