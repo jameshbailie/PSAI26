@@ -3,6 +3,10 @@ title: "Principled Statistics in the Age of AI"
 image: images/IMG_20221016_164411.jpg
 ---
 
+<div class="hero" style="margin-bottom:1rem;">
+<img src="images/IMG_20221016_164411.jpg" alt="Workshop hero image" style="width:100%;height:auto;object-fit:cover;" />
+</div>
+
 # Welcome
 
 A one-day workshop, “Principled Statistics in the Age of AI,” as part of Professor Xiao-Li Meng’s visit to Chalmers as a 2026 Jubilee Professor. We’re aiming for 40–50 participants to keep the format intimate and discussion-rich.
