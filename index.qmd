@@ -40,9 +40,8 @@ Registration is free but mandatory. Please register using the form on the [Regis
 
 
 ## Conference organisers:
-Adel Daoud & James Bailie
+[Adel Daoud](https://www.adeldaoud.com/)  & [James Bailie]((https://jameshbailie.github.io/))
 
 [AI & Global Development Lab](https://aidevlab.org/)
 
-Contact: [James Bailie](https://jameshbailie.github.io/) — [bailie@chalmers.se](mailto:bailie@chalmers.se); [Adel Daoud](https://www.adeldaoud.com/) — [daoud@chalmers.se](mailto:daoud@chalmers.se)
-
+Contact: [last name] [at] chalmers [dot] se (for both Adel and James).

@@ -1,3 +1,7 @@
+#quarto-document-content {
+  padding-top: 0px;
+}
+
 /* Hero banner and responsive rules */
 .hero-banner {
   position: relative;
