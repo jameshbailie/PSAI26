@@ -19,8 +19,11 @@ format:
   html:
     theme: yeti
     css: styles.css
+    include-after-body:
+      - text: <script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script> <script async src="https://scripts.simpleanalyticscdn.com/auto-events.js"></script> <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
+
 
 editor: visual
 
 env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true    
