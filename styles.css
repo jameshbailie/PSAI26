@@ -112,7 +112,13 @@
   clip: rect(0 0 0 0) !important;
   white-space: nowrap !important;
   border: 0 !important;
+  opacity: 1;
 }
+
+#title-block-header {
+  background-image: url('images/IMG_20221016_164411.jpg');
+}
+
 
 /* Visible site title below hero banner */
 .site-title-container {
