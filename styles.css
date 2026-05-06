@@ -157,3 +157,17 @@ body.index .quarto-body { padding-top: 0; }
 /* Remove any container constraints for the title meta so text can center correctly */
 #title-block-header > .quarto-title-meta { max-width: 1100px; margin: 0 auto; position: relative; z-index: 1; }
 
+
+/* Visually hide title and meta in title-block while keeping them accessible to screen readers */
+#title-block-header .quarto-title,
+#title-block-header .quarto-title-meta {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
