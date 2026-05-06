@@ -36,3 +36,6 @@ format:
     css: styles.css
 
 editor: visual
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
