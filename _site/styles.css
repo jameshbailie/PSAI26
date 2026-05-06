@@ -1,0 +1,164 @@
+#quarto-document-content {
+  padding-top: 0px;
+}
+
+
+#quarto-header {
+  background-color: rgb(0, 140, 186);
+}
+
+/* Hero banner and responsive rules */
+.hero-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  overflow: hidden;
+}
+
+.hero-banner::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35));
+  pointer-events: none;
+}
+
+.hero-overlay {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 1rem;
+}
+
+.hero-overlay h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: clamp(1.75rem, 3.5vw, 3.5rem);
+  line-height: 1.05;
+}
+
+.hero-overlay p {
+  margin: 0;
+  font-size: 1.125rem;
+}
+
+/* accessibility: ensure image scales on small screens */
+@media (max-width: 600px) {
+  .hero-banner {
+    height: 40vh;
+  }
+}
+
+/* Position navbar over hero banner so the hero appears as the site header */
+.quarto-navbar, header.site-header, .site-header, .navbar, .quarto-nav {
+  z-index: 3;
+  background: transparent !important;
+}
+
+/* Ensure page content does not leave an extra gap below the hero */
+.project-content, .page-body, .quarto-body, main {
+  margin-top: 0;
+  padding-top: 1rem;
+}
+
+/* Make hero appear behind navbar and reserve space for it */
+.hero-banner {
+  position: relative;
+  z-index: 1;
+  padding-top: 3.5rem; /* adjust if navbar height changes */
+}
+
+
+
+/* Make Quarto title-block header full-bleed across viewport */
+#title-block-header {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+  max-width: none;
+  background-size: cover !important;
+  background-position: center center !important; /* ensure centered alignment */
+  background-repeat: no-repeat !important;
+  height: 60vh;
+  z-index: 0;
+  overflow: hidden;
+}
+
+
+
+/* Visually hide title and meta in title-block while keeping them accessible to screen readers */
+#title-block-header .quarto-title,
+#title-block-header .quarto-title-meta {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* Visible site title below hero banner */
+.site-title-container {
+  text-align: center;
+  margin: 1.5rem 0 0.75rem 0;
+}
+
+.site-title {
+  font-size: clamp(1.5rem, 2.5vw, 2.25rem);
+  margin: 0;
+  color: #000000 !important;
+  font-weight: 600;
+}
+
+/* Remove top whitespace above hero banner specifically on index page */
+body.index html, body.index body {
+  margin: 0;
+  padding: 0;
+}
+
+body.index .quarto-navbar,
+body.index header.site-header,
+body.index .quarto-title-block,
+body.index #title-block-header {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0;
+  right: 0;
+  z-index: 999 !important;
+}
+
+/* Ensure the page content is positioned below the navbar and hero */
+body.index .quarto-body, body.index .page-content {
+  margin-top: 0 !important;
+  padding-top: calc(60vh + 1rem) !important; /* leave space equal to hero height plus small gap */
+}
+
+/* For small screens reduce reserved space */
+@media (max-width: 768px) {
+  body.index .quarto-body, body.index .page-content {
+    padding-top: calc(45vh + 1rem) !important;
+  }
+}
+
+@media (max-width: 576px) {
+  body.index .quarto-body, body.index .page-content {
+    padding-top: calc(35vh + 1rem) !important;
+  }
+}
