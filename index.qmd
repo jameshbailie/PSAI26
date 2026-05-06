@@ -1,10 +1,13 @@
 ---
 title: "Principled Statistics in the Age of AI"
-image: images/IMG_20221016_164411.jpg
+title-block: false
 ---
 
-<div class="hero" style="margin-bottom:1rem;">
-<img src="images/IMG_20221016_164411.jpg" alt="Workshop hero image" style="width:100%;height:auto;object-fit:cover;" />
+<div class="hero-banner" style="background-image: url('images/IMG_20221016_164411.jpg');">
+  <div class="hero-overlay">
+    <h1>Principled Statistics in the Age of AI</h1>
+    <p>Workshop — 5 June 2026 — Chalmers University, Gothenburg</p>
+  </div>
 </div>
 
 # Welcome
@@ -34,18 +37,9 @@ A one-day workshop, “Principled Statistics in the Age of AI,” as part of Pro
 See the full talk listings and bios on the [Talks](talks.qmd) page.
 
 
-## Organisers
-
-Adel Daoud
-
-James Bailie
-
-As part of the AI & GLOBAL DEVELOPMENT LAB — https://aidevlab.org/
-
 ## Registration
 
 Registration is free but mandatory. Please register using the form on the [Registration page](registration.qmd).
 
 Contact: bailie@chalmers.se, daoud@chalmers.se
-
 
