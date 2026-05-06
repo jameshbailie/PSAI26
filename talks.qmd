@@ -8,7 +8,7 @@ This page contains the talk schedule, abstracts, and speaker bios.
 
 ## Keynote — Xiao-Li Meng
 
-![](images/meng.jpg){width="200px" align="left"}
+![Photo of Xiao-Li Meng](images/meng.jpg){width="200px" align="left"}
 
 **Title:** (Keynote title TBD)
 
