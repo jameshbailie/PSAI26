@@ -42,5 +42,10 @@ James Bailie
 
 As part of the AI & GLOBAL DEVELOPMENT LAB — https://aidevlab.org/
 
+## Registration
+
+Registration is free but mandatory. Please register using the form on the [Registration page](registration.qmd).
+
 Contact: bailie@chalmers.se, daoud@chalmers.se
+
 

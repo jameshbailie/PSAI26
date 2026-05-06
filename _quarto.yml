@@ -9,6 +9,8 @@ website:
         href: index.qmd
       - text: "Talks"
         href: talks.qmd
+      - text: "Register"
+        href: registration.qmd
 
 format:
   html:
