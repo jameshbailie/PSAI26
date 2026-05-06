@@ -2,9 +2,17 @@
   padding-top: 0px;
 }
 
+
+#quarto-header {
+  background-color: rgb(0, 140, 186);
+}
+
 /* Hero banner and responsive rules */
 .hero-banner {
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   height: 60vh;
   background-size: cover;
@@ -54,10 +62,6 @@
 
 /* Position navbar over hero banner so the hero appears as the site header */
 .quarto-navbar, header.site-header, .site-header, .navbar, .quarto-nav {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
   z-index: 3;
   background: transparent !important;
 }
@@ -75,56 +79,6 @@
   padding-top: 3.5rem; /* adjust if navbar height changes */
 }
 
-/* If the theme adds a top margin to body, reduce it for index specifically */
-body.index .quarto-body { padding-top: 0; }
-
-/* Hero banner styling (kept in styles.css for responsive control) */
-.hero-banner {
-  width: 100%;
-  height: 60vh;
-  background-size: cover;
-  background-position: center center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  overflow: hidden;
-}
-
-.hero-banner::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35));
-  pointer-events: none;
-}
-
-.hero-overlay {
-  position: relative;
-  z-index: 2;
-  text-align: center;
-  padding: 1rem;
-}
-
-.hero-overlay h1 {
-  margin: 0 0 0.5rem 0;
-  font-size: clamp(1.75rem, 3.5vw, 3.5rem);
-  line-height: 1.05;
-}
-
-.hero-overlay p {
-  margin: 0;
-  font-size: 1.125rem;
-}
-
-@media (max-width: 600px) {
-  .hero-banner {
-    height: 40vh;
-  }
-}
 
 
 /* Make Quarto title-block header full-bleed across viewport */
@@ -143,26 +97,6 @@ body.index .quarto-body { padding-top: 0; }
   z-index: 0;
   overflow: hidden;
 }
-
-#title-block-header::after {
-  /* ensure overlay sits above the background but behind title meta */
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0,0,0,0.35);
-  z-index: 0;
-}
-
-/* Ensure navbar stays above the banner and set link colors to pastel dark green */
-.quarto-navbar, header.site-header, .site-header, .navbar, .quarto-nav { z-index: 999; background: transparent !important; }
-.quarto-navbar a, .navbar a { color: #cce6ff !important; }
-.quarto-navbar a:hover, .navbar a:hover { color: #1a8cff !important; }
-
-/* Remove any container constraints for the title meta so text can center correctly */
-#title-block-header > .quarto-title-meta { max-width: 1100px; margin: 0 auto; position: relative; z-index: 1; }
 
 
 
@@ -227,57 +161,4 @@ body.index .quarto-body, body.index .page-content {
   body.index .quarto-body, body.index .page-content {
     padding-top: calc(35vh + 1rem) !important;
   }
-}
-
-/* ========== AUTO-HIDE NAVBAR STYLES ========== */
-
-/* Navbar transition for smooth hide/show */
-.quarto-navbar,
-.navbar,
-[role="navigation"] {
-  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  transform: translateY(0);
-  opacity: 1;
-}
-
-/* Hide state: slide navbar up and fade slightly */
-.quarto-navbar.nav-hidden,
-.navbar.nav-hidden,
-[role="navigation"].nav-hidden {
-  transform: translateY(-100%);
-  opacity: 0;
-  pointer-events: none;
-}
-
-/* Placeholder: reserve space to prevent layout shift */
-body::before {
-  content: '';
-  display: block;
-  height: 0;
-  transition: height 0.3s ease-in-out;
-}
-
-body.nav-hidden::before {
-  /* This prevents content jump - optional subtle spacing */
-  height: 0;
-}
-
-/* Ensure content doesn't jump when navbar slides */
-main,
-.quarto-body,
-.page-content {
-  transition: padding-top 0.3s ease-in-out;
-}
-
-/* Mobile: disable auto-hide on very small screens (optional) */
-@media (max-width: 576px) {
-}
-/* Site background color */
-body, .quarto-body {
-  background-color: #ffffff;
-}
-
-/* Ensure content containers keep white backgrounds if needed (optional) */
-.container, .page-body, .quarto-page-body {
-  background: transparent;
 }

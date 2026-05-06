@@ -18,13 +18,6 @@ website:
 include-in-header:
   - text: |
       <style>
-      /* Title-block banner: use a static banner image from images/ */
-      #title-block-header.quarto-title-block.default .quarto-title-meta {
-        color: #ffffff;
-      }
-      .quarto-title-block .quarto-title-banner {
-        height: 0;
-      }
       #title-block-header {
         background-image: url('images/IMG_20221016_164411.jpg');
         background-size: cover;
@@ -34,19 +27,7 @@ include-in-header:
         position: relative;
         z-index: 0;
       }
-      #title-block-header::after {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(0, 0, 0, 0.35);
-        z-index: 0;
-      }
-      #title-block-header > .quarto-title-meta { position: relative; z-index: 1; }
       </style>
-  - file: assets/nav-hide.js
 
 format:
   html:

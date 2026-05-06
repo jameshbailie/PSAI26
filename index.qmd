@@ -11,8 +11,8 @@ A one-day workshop, “Principled Statistics in the Age of AI,” as part of Pro
 
 ## Program (Friday, 5 June 2026)
 
-| Time     | Session             | Details |
-|----------|---------------------|---------|
+|Time | Session             | Details |
+|------|------------------|------------|
 | 09:00 – 09:30   | Welcome & Opening Remarks | |
 | 09:35 – 10:20   | Talk 1 (Title TBD)       | Ashkan Panahi |
 | 10:20 – 10:50   | Morning Fika            | Extended break for discussion |
@@ -35,7 +35,10 @@ See the full talk listings and bios on the [Talks](talks.qmd) page.
 Registration is free but mandatory. Please register using the form on the [Registration page](registration.qmd).
 
 
-## Conference organisers:
+
+<br>
+
+### Organizers
 [Adel Daoud](https://www.adeldaoud.com/)  & [James Bailie]((https://jameshbailie.github.io/))
 
 [AI & Global Development Lab](https://aidevlab.org/)

@@ -8,7 +8,7 @@ This page contains the talk schedule, abstracts, and speaker bios.
 
 ## Keynote — Xiao-Li Meng
 
-![Photo of Xiao-Li Meng](images/meng.jpg){width="200px" align="left"}
+![](images/meng.jpg){width="200px" align="left"}
 
 **Title:** (Keynote title TBD)
 
@@ -80,8 +80,4 @@ Short bio for Ashkan Panahi.
 
 ---
 
-## Notes for editors
 
-- Add Xiao-Li's photo as `images/meng.jpg` to display the keynote image.
-- Fill in talk titles, abstracts, and speaker bios in the placeholders above.
-- Keep this page updated with final abstracts as they arrive.
