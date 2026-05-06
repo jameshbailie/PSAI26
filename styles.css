@@ -133,7 +133,8 @@ body.index .quarto-body { padding-top: 0; }
   width: 100vw;
   max-width: none;
   background-size: cover !important;
-  background-position: center center !important;
+  background-position: center center !important; /* ensure centered alignment */
+  background-repeat: no-repeat !important;
   height: 60vh;
   z-index: 0;
   overflow: hidden;
@@ -151,11 +152,14 @@ body.index .quarto-body { padding-top: 0; }
   z-index: 0;
 }
 
-/* Ensure navbar stays above the banner */
-.quarto-navbar, header.site-header, .site-header, .navbar, .quarto-nav { z-index: 5; background: transparent !important; }
+/* Ensure navbar stays above the banner and set link colors to pastel dark green */
+.quarto-navbar, header.site-header, .site-header, .navbar, .quarto-nav { z-index: 999; background: transparent !important; }
+.quarto-navbar a, .navbar a { color: #2F6D49 !important; }
+.quarto-navbar a:hover, .navbar a:hover { color: #254f38 !important; }
 
 /* Remove any container constraints for the title meta so text can center correctly */
 #title-block-header > .quarto-title-meta { max-width: 1100px; margin: 0 auto; position: relative; z-index: 1; }
+
 
 
 /* Visually hide title and meta in title-block while keeping them accessible to screen readers */
@@ -181,6 +185,6 @@ body.index .quarto-body { padding-top: 0; }
 .site-title {
   font-size: clamp(1.5rem, 2.5vw, 2.25rem);
   margin: 0;
-  color: #222222;
+  color: #2F6D49;
   font-weight: 600;
 }
