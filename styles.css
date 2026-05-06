@@ -122,3 +122,38 @@ body.index .quarto-body { padding-top: 0; }
   }
 }
 
+
+/* Make Quarto title-block header full-bleed across viewport */
+#title-block-header {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+  max-width: none;
+  background-size: cover !important;
+  background-position: center center !important;
+  height: 60vh;
+  z-index: 0;
+  overflow: hidden;
+}
+
+#title-block-header::after {
+  /* ensure overlay sits above the background but behind title meta */
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.35);
+  z-index: 0;
+}
+
+/* Ensure navbar stays above the banner */
+.quarto-navbar, header.site-header, .site-header, .navbar, .quarto-nav { z-index: 5; background: transparent !important; }
+
+/* Remove any container constraints for the title meta so text can center correctly */
+#title-block-header > .quarto-title-meta { max-width: 1100px; margin: 0 auto; position: relative; z-index: 1; }
+
