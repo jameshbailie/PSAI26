@@ -1,0 +1,13 @@
+project:
+  type: website
+
+website:
+  title: "Principled Statistics in the Age of AI"
+  navbar:
+    right:
+      - text: "Program"
+        href: index.qmd
+
+format:
+  html:
+    theme: cosmo
