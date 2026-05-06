@@ -154,8 +154,8 @@ body.index .quarto-body { padding-top: 0; }
 
 /* Ensure navbar stays above the banner and set link colors to pastel dark green */
 .quarto-navbar, header.site-header, .site-header, .navbar, .quarto-nav { z-index: 999; background: transparent !important; }
-.quarto-navbar a, .navbar a { color: #2F6D49 !important; }
-.quarto-navbar a:hover, .navbar a:hover { color: #254f38 !important; }
+.quarto-navbar a, .navbar a { color: #6BAF85 !important; }
+.quarto-navbar a:hover, .navbar a:hover { color: #4F8F66 !important; }
 
 /* Remove any container constraints for the title meta so text can center correctly */
 #title-block-header > .quarto-title-meta { max-width: 1100px; margin: 0 auto; position: relative; z-index: 1; }
