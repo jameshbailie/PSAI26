@@ -7,26 +7,22 @@ title-block: false
   <h1 class="site-title">Principled Statistics in the Age of AI</h1>
 </div>
 
-# Welcome
-
-A one-day workshop, “Principled Statistics in the Age of AI,” as part of Professor Xiao-Li Meng’s visit to Chalmers as a 2026 Jubilee Professor. We’re aiming for 40–50 participants to keep the format intimate and discussion-rich.
-
 A one-day workshop, “Principled Statistics in the Age of AI,” as part of Professor Xiao-Li Meng’s visit to Chalmers as a 2026 Jubilee Professor. We’re aiming for 40–50 participants to keep the format intimate and discussion-rich.
 
 ## Program (Friday, 5 June 2026)
 
-| Time            | Session                              | Details |
-|-----------------|--------------------------------------|---------|
-| 09:00 – 09:30   | Welcome & Opening Remarks            | |
-| 09:35 – 10:20   | Talk 1 (Title TBD)                   | Ashkan Panahi |
-| 10:20 – 10:50   | Morning Fika                         | Extended break for discussion |
-| 10:50 – 11:35   | Talk 2 (Title TBD)                   | Joshua Bon |
-| 11:40 – 12:25   | Talk 3 (Title TBD)                   | Fredrik Johansson |
-| 12:25 – 13:25   | Lunch                                | |
-| 13:25 – 14:10   | Talk 4 (Title TBD)                   | Cory McCartan |
-| 14:10 – 14:40   | Afternoon Fika                       | Mid-afternoon discussion break |
-| 14:40 – 15:55   | Keynote Address (Title TBD)          | Xiao-Li Meng |
-| 15:55 – 16:00   | Closing Remarks                      | |
+| Time     | Session             | Details |
+|----------|---------------------|---------|
+| 09:00 – 09:30   | Welcome & Opening Remarks | |
+| 09:35 – 10:20   | Talk 1 (Title TBD)       | Ashkan Panahi |
+| 10:20 – 10:50   | Morning Fika            | Extended break for discussion |
+| 10:50 – 11:35   | Talk 2 (Title TBD)      | Joshua Bon |
+| 11:40 – 12:25   | Talk 3 (Title TBD)      | Fredrik Johansson |
+| 12:25 – 13:25   | Lunch                   | |
+| 13:25 – 14:10   | Talk 4 (Title TBD)      | Cory McCartan |
+| 14:10 – 14:40   | Afternoon Fika          | Mid-afternoon discussion break |
+| 14:40 – 15:55   | Keynote Address (Title TBD) | Xiao-Li Meng |
+| 15:55 – 16:00   | Closing Remarks         | |
 
 
 ## Talks and Speakers

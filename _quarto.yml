@@ -12,6 +12,8 @@ website:
       - text: "Register"
         href: registration.qmd
 
+  page-navigation: true 
+
 # Include a small header snippet that sets the title-block background image for the site index
 include-in-header:
   - text: |
@@ -48,5 +50,7 @@ include-in-header:
 
 format:
   html:
-    theme: cosmo
+    theme: yeti
     css: styles.css
+
+editor: visual
