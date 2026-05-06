@@ -21,7 +21,7 @@ A one-day workshop, “Principled Statistics in the Age of AI,” as part of Pro
 | 12:25 – 13:25   | Lunch                   | |
 | 13:25 – 14:10   | Talk 4 (Title TBD)      | Cory McCartan |
 | 14:10 – 14:40   | Afternoon Fika          | Mid-afternoon discussion break |
-| 14:40 – 15:55   | Keynote Address (Title TBD) | Xiao-Li Meng |
+| 14:40 – 15:55   | From a Cauchy Surprise to the Half-Cauchy Miracle | Keynote Address Xiao-Li Meng |
 | 15:55 – 16:00   | Closing Remarks         | |
 
 
