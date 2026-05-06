@@ -3,14 +3,9 @@ title: "Principled Statistics in the Age of AI"
 title-block: false
 ---
 
-<div class="hero-banner" style="background-image: url('images/IMG_20221016_164411.jpg');">
-  <div class="hero-overlay">
-    <h1>Principled Statistics in the Age of AI</h1>
-    <p>Workshop — 5 June 2026 — Chalmers University, Gothenburg</p>
-  </div>
-</div>
-
 # Welcome
+
+A one-day workshop, “Principled Statistics in the Age of AI,” as part of Professor Xiao-Li Meng’s visit to Chalmers as a 2026 Jubilee Professor. We’re aiming for 40–50 participants to keep the format intimate and discussion-rich.
 
 A one-day workshop, “Principled Statistics in the Age of AI,” as part of Professor Xiao-Li Meng’s visit to Chalmers as a 2026 Jubilee Professor. We’re aiming for 40–50 participants to keep the format intimate and discussion-rich.
 
@@ -39,5 +34,11 @@ See the full talk listings and bios on the [Talks](talks.qmd) page.
 
 Registration is free but mandatory. Please register using the form on the [Registration page](registration.qmd).
 
-Contact: bailie@chalmers.se, daoud@chalmers.se
+
+## Conference organisers:
+Adel Daoud & James Bailie
+
+[AI & Global Development Lab](https://aidevlab.org/)
+
+Contact: [last name] [at] chalmers [dot] se (for both Adel and James).
 
