@@ -44,6 +44,7 @@ include-in-header:
       }
       #title-block-header > .quarto-title-meta { position: relative; z-index: 1; }
       </style>
+  - file: assets/nav-hide.js
 
 format:
   html:

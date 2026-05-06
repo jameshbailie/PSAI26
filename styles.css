@@ -189,7 +189,7 @@ body.index .quarto-body { padding-top: 0; }
 .site-title {
   font-size: clamp(1.5rem, 2.5vw, 2.25rem);
   margin: 0;
-  color: #cce6ff !important;
+  color: #000000 !important;
   font-weight: 600;
 }
 
@@ -228,9 +228,53 @@ body.index .quarto-body, body.index .page-content {
     padding-top: calc(35vh + 1rem) !important;
   }
 }
+
+/* ========== AUTO-HIDE NAVBAR STYLES ========== */
+
+/* Navbar transition for smooth hide/show */
+.quarto-navbar,
+.navbar,
+[role="navigation"] {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Hide state: slide navbar up and fade slightly */
+.quarto-navbar.nav-hidden,
+.navbar.nav-hidden,
+[role="navigation"].nav-hidden {
+  transform: translateY(-100%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Placeholder: reserve space to prevent layout shift */
+body::before {
+  content: '';
+  display: block;
+  height: 0;
+  transition: height 0.3s ease-in-out;
+}
+
+body.nav-hidden::before {
+  /* This prevents content jump - optional subtle spacing */
+  height: 0;
+}
+
+/* Ensure content doesn't jump when navbar slides */
+main,
+.quarto-body,
+.page-content {
+  transition: padding-top 0.3s ease-in-out;
+}
+
+/* Mobile: disable auto-hide on very small screens (optional) */
+@media (max-width: 576px) {
+}
 /* Site background color */
 body, .quarto-body {
-  background-color: #f6dfc7;
+  background-color: #ffffff;
 }
 
 /* Ensure content containers keep white backgrounds if needed (optional) */
