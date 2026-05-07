@@ -16,7 +16,7 @@ A one-day workshop, “Principled Statistics in the Age of AI,” as part of Pro
 | 09:00 – 09:30   | Welcome & Opening Remarks | |
 | 09:35 – 10:20   | Talk 1 (Title TBD)       | Ashkan Panahi |
 | 10:20 – 10:50   | Morning Fika            | Extended break for discussion |
-| 10:50 – 11:35   | Talk 2 (Title TBD)      | Joshua Bon |
+| 10:50 – 11:35   | Persuasive Privacy     | Joshua Bon |
 | 11:40 – 12:25   | Talk 3 (Title TBD)      | Fredrik Johansson |
 | 12:25 – 13:25   | Lunch                   | |
 | 13:25 – 14:10   | Talk 4 (Title TBD)      | Cory McCartan |

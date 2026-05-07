@@ -41,16 +41,18 @@ Short bio for Cory McCartan.
 
 ---
 
-### Talk: (Title TBD)
+### Talk: Persuasive Privacy
 **Speaker:** Joshua Bon
 
 **Abstract:**
 
-> (Abstract placeholder)
+> We propose a novel framework for measuring privacy from a Bayesian game-theoretic perspective. This framework enables the creation of new, purpose-driven privacy definitions that are rigorously justified, while also allowing for the assessment of existing privacy guarantees through game theory. We show that pure and probabilistic differential privacy are special cases of our framework, and provide new interpretations of the post-processing inequality in this setting. Further, we demonstrate that privacy guarantees can be established for deterministic algorithms, which are overlooked by current privacy standards. (Joint work with James Bailie, Judith Rousseau, and Christian Robert.)
 
 **Bio:**
 
-Short bio for Joshua Bon.
+Dr Bon is a Lecturer in the School of Mathematical Sciences at Adelaide University. His research is in computational statistics, focussing on the development and analysis of Bayesian inference algorithms, including sequential Monte Carlo and simulation-based inference. He collaborates with applied scientists across sports science, psychology, social science, and ecology to develop principled and robust data analysis procedures. Alongside this, he develops open-source statistical software. Dr Bon is currently working on methods for Bayesian inference with data privacy guarantees involving Persuasive Privacy.
+
+Link: https://bonstats.github.io/ 
 
 ---
 
