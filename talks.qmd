@@ -56,16 +56,18 @@ Link: https://bonstats.github.io/
 
 ---
 
-### Talk: (Title TBD)
+### Talk: Learning causally sound and interpretable composite endpoints for clinical trials
 **Speaker:** Fredrik Johansson
 
 **Abstract:**
 
-> (Abstract placeholder)
+> Randomized clinical trials are considered the gold standard evidence for learning about the causal effects of medical interventions, but have natural limitations on scope and length. This often rules out targeting long-term outcomes of interest, such as mortality or cardiovascular disease, as these endpoints won’t be observed for most participants during the length of the trial. Instead, researchers turn to surrogate endpoints that are associated with the primary outcome of interest and can be observed during the trial. This presents a problem: What constitutes a good surrogate? In theory, a good surrogate is one for which the effect of the treatment is predictive of its effect on the primary outcome, but the definition alone does not reveal how to find such a variable. More than that, to be useful in a clinical trial, the surrogate must be approved by a regulatory body when registering the trial, necessitating its interpretability. In this talk, I will discuss the implications of this, algorithms that can provably learn composite surrogates from observational data, and situations where there is no hope to find a good surrogate.
 
 **Bio:**
 
-Short bio for Fredrik Johansson.
+Fredrik Johansson is associate professor of Computer Science & Engineering at Chalmers University of Technology, where he runs the Healthy AI Lab, dedicated to develop machine learning methods and theory to advance decision making in healthcare. 
+
+Link: www.healthyai.se 
 
 ---
 
