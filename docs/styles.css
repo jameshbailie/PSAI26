@@ -1,3 +1,23 @@
+.schedule-table table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.schedule-table table th:nth-child(1),
+.schedule-table table td:nth-child(1) {
+  width: 15%;
+}
+
+.schedule-table table th:nth-child(2),
+.schedule-table table td:nth-child(2) {
+  width: 55%;
+}
+
+.schedule-table table th:nth-child(3),
+.schedule-table table td:nth-child(3) {
+  width: 30%;
+}
+
 #quarto-document-content {
   padding-top: 0px;
 }

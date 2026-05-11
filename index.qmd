@@ -7,29 +7,41 @@ title-block: false
   <h1 class="site-title">Principled Statistics in the Age of AI</h1>
 </div>
 
-A one-day workshop, “Principled Statistics in the Age of AI,” as part of Professor Xiao-Li Meng’s visit to Chalmers as a 2026 Jubilee Professor. We’re aiming for 40–50 participants to keep the format intimate and discussion-rich.
+<div style="text-align: center;">
+
+*Principled Statistics in the Age of AI* is a one-day workshop organized as part of Prof. Xiao-Li Meng's (Harvard University) visit to Chalmers University of Technology as a <a href="https://www.chalmers.se/en/current/news/2026-jubilee-professors-appointed/" target="_blank">2026 Jubilee Professor</a>. The workshop will bring together researchers working across statistics, machine learning, causal inference and privacy to discuss how principled statistical thinking can guide science in the context of AI. Featuring invited talks from leading international and local researchers, the workshop is designed to foster an intimate and discussion-rich atmosphere with ample time for conversation and exchange.
+
+</div>
 
 Lunch and fika will be provided.
 
-## Program (Friday, 5 June 2026)
+**Location:** A Working Lab (on the Chalmers campus), <a href="https://maps.app.goo.gl/Fnc3tzz2wM4yNCALA" target="_blank">Sven Hultins Gata 5, 412 58 Göteborg</a> 
 
-|Time | Session             | Details |
-|------|------------------|------------|
-| 09:00 – 09:30   | Welcome & Opening Remarks | |
-| 09:35 – 10:20   | Talk 1 (Title TBD)       | Ashkan Panahi |
-| 10:20 – 10:50   | Morning Fika            | Extended break for discussion |
-| 10:50 – 11:35   | Persuasive Privacy | Joshua Bon |
-| 11:40 – 12:25   | Learning causally sound and interpretable composite endpoints for clinical trials | Fredrik Johansson |
-| 12:25 – 13:25   | Lunch                   | |
-| 13:25 – 14:10   | Talk 4 (Title TBD)      | Cory McCartan |
-| 14:10 – 14:40   | Afternoon Fika          | Mid-afternoon discussion break |
-| 14:40 – 15:55   | From a Cauchy Surprise to the Half-Cauchy Miracle | Keynote Address Xiao-Li Meng |
-| 15:55 – 16:00   | Closing Remarks         | |
+**Date and time:** 9am–4pm, Friday, 5 June 2026
 
+
+## Program 
+
+::: {.schedule-table}
+
+| Time | Session | Details |
+|--------|----------------|------------|
+| 09:00–09:30 | Welcome & Opening Remarks | Adel Daoud |
+| 09:35–10:20 | Talk (Title TBD) | Ashkan Panahi |
+| 10:20–10:50 | Morning Fika | Extended break for discussion |
+| 10:50–11:35 | Persuasive Privacy | Joshua Bon |
+| 11:40–12:25 | Learning causally sound and interpretable composite endpoints for clinical trials | Fredrik Johansson |
+| 12:25–13:25 | Lunch | At <a href="https://www.instagram.com/wastegbg/" target="_blank">Waste</a> |
+| 13:25–14:10 | Talk (Title TBD) | Cory McCartan |
+| 14:10–14:40 | Afternoon Fika | Discussion break |
+| 14:40–15:55 | *Keynote Address:* From a Cauchy Surprise to the Half-Cauchy Miracle | Xiao-Li Meng |
+| 15:55–16:00 | Closing Remarks | Adel Daoud |
+
+:::
 
 ## Talks and Speakers
 
-See the full talk listings and bios on the [Talks](talks.qmd) page.
+See the full talk listings and bios on the [Talks page](talks.qmd).
 
 
 ## Registration
@@ -38,11 +50,11 @@ Registration is free but mandatory. Please register using the form on the [Regis
 
 
 
-<br>
+<br><br>
 
 ### Organizers
-[Adel Daoud](https://www.adeldaoud.com/)  & [James Bailie]((https://jameshbailie.github.io/))
+<a href="https://www.adeldaoud.com/" target="_blank">Adel Daoud</a>  & <a href="https://jameshbailie.github.io/" target="_blank">James Bailie</a>
 
-[AI & Global Development Lab](https://aidevlab.org/)
+<a href="https://aidevlab.org/" target="_blank">AI & Global Development Lab</a>
 
-Contact: [last name] [at] chalmers [dot] se (for both Adel and James).
+**Contact:** [last name] [at] chalmers [dot] se (for both Adel and James).
