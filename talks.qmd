@@ -63,15 +63,15 @@ title: "Talks – Principled Statistics in the Age of AI"
 ---
 
 ### Invited Talk: Prof. Ashkan Panahi
-**Title:** *TBD*
+**Title:** *Learning Trajectories of Large Neural Networks: A Statistical Analysis*
 
 **Abstract:**
 
-> TBD
+> The statistical behavior of neural networks strongly depends on the way they are trained. This observation has made the analysis of learning trajectories a central problem in theoretical machine learning. While such trajectories can be extremely complex to analyze exactly, they often exhibit a simpler structure in asymptotically large settings, where they depend on fewer effective parameters that capture the overall behavior of the model. In this talk, we review recent developments in this area. In particular, we introduce a Gaussian comparison technique that relates the dynamics of learning trajectories to alternative dynamical systems that may be more tractable to analyze. Our results hold in finite dimensions and provide a rigorous justification of earlier findings obtained through alternative approaches such as dynamical mean field theory
 
 **Bio:**
 
-> TBD
+> Ashkan Panahi is a researcher and associate professor in the Department of Computer Science and Engineering at Chalmers University of Technology. Originally trained in electrical engineering with a specialization in communication systems, he received his PhD in signal processing in 2015. Since then, his research has focused on the theoretical foundations of statistical machine learning, optimization, and information theory. His work spans areas including distributed and federated learning, graph-based machine learning, signal processing, and statistical inference, with applications in modern AI systems and networked data analysis. He currently leads a research group developing efficient methods for multi-scale transformer-based image processing and general approaches to knowledge transfer, with a particular emphasis on cell microscopy imaging.
 
 ---
 
