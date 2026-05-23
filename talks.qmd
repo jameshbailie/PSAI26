@@ -38,20 +38,22 @@ title: "Talks – Principled Statistics in the Age of AI"
 ---
 
 ### Invited Talk: Prof. Cory McCartan
-**Title:** *TBD*
+**Title:** *Computer Redistricting Simulation: Past, Present, and Future*
 
 **Abstract:**
 
-> TBD
+> Statistical sampling of redistricting plans has emerged as a powerful tool to study legislative redistricting and identify partisan and racial gerrymanders. I will introduce redistricting simulation tools and explain the basics of how they operate and the statistical guarantees they provide. Then I will discuss how these algorithms have been applied in the past as well as new and emerging methods and applications of these tools.  I will conclude with some thoughts on the future use of simulation tools in light of the shifting judicial and political landscape in the United States. 
 
 **Bio:**
 
-> TBD
+> Cory McCartan is the Hoben and Patricia Thomas and Thomas and Ann Hettmansperger Early Career Professor of Statistics at Penn State and a faculty affiliate in political science. His research focuses on methodological and applied problems in the social sciences, including elections, legislative redistricting, racial disparities, and missing data. He is a Co-PI of the Algorithm-Assisted Redistricting Methodology (ALARM) Project at Harvard University. As part of his research, he also develops and maintains a number of R packages for visualization, redistricting, and statistical analysis.
+> 
+> Homepage: <a href="https://corymccartan.com/">corymccartan.com</a>
 
 ---
 
 ### Invited Talk: Prof. Fredrik Johansson
-**Title:** *Learning causally sound and interpretable composite endpoints for clinical trials*
+**Title:** *Learning Causally Sound and Interpretable Composite Endpoints for Clinical Trials*
 
 **Abstract:**
 
